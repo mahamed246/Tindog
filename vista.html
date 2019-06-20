@@ -49,15 +49,19 @@ li a {
    
 }
 
+a:hover {
+    color: red;
+}
+
 .whitearea {
     background-color: white;
-    padding: 200px;
+    padding: 100px;
 
 }
 
 .orangearea {
     background-color: rgb(255, 150, 51);
-    padding: 250px;
+    padding: 90px;
 }
 
 .bluearea {
@@ -83,41 +87,126 @@ li a {
 
 .img1 {
     height: 300px;
-    width: 250px;
+    width: 200px;
     margin-top: -200px;
-    position: relative;
     margin-left: 300px;
+}
+
+h3 {
+    display: inline-block;
+    text-align:center;
+    
+}
+
+.column {
+    padding: 5px;
+    flex: 25%%;
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+}
+
+.column1 {
+    padding: 5px;
+    flex: 33%;
+    margin: 15px;
+}
+
+.row1 {
+    display: flex;
+}
+
+p1 {
+font-weight: lighter;
+font-size: 20px;
+
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+
+.img2 {
+    display:block;
+    margin:auto;  
+    border-radius: 50%;  
+}
+
+p2 {
+    color: white;
+    margin:auto;
+    font-weight: bold;
+    margin: auto;
+    margin-left: 55%;
 }
 
 </style>
 </head>
 <body>
     <div class="bluearea">
-<h1>Tindog</h1>
-<ul>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#download">Download</a></li>
-    </ul>
-<br>
-<br>
-<br>
-<h2>Meet new and</h2>
-<h2>interesting dogs</h2>
-<h2>nearby.</h2>
-<br>
-<button class="btn"><i class="fab fa-apple"></i> Download</button>
-<button class="btn"><i class="fab fa-google-play"></i> Download</button>
-<img class="img1" src="iphone6.png" style="transform: rotate(-25deg);">
+        <h1>Tindog</h1>
+        <ul>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#download">Download</a></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+
+        <h2>Meet new and</h2>
+        <h2>interesting dogs</h2>
+        <h2>nearby.</h2>
+        <br>
+        <button class="btn"><i class="fab fa-apple"></i> Download</button>
+        <button class="btn"><i class="fab fa-google-play"></i> Download</button>
+        <img class="img1" src="iphone6.png" style="transform: rotate(-25deg);">
 
     </div>
-<div class="whitearea">
+    <div class="whitearea">
+          <div class="row">
+          <div class="column">
+                    <h3>Easy To Use</h3>
+                    <br>
+                    <p1>So easy to use, even your</p1>
+                    <br>
+                    <p1>dog could do it.</p1>
+          <img src="dog1.jpg" width="100%" height="450px" style="object-fit: cover" >
+          </div>
+          <div class="column">
+                    <h3>Elite Clientele</h3>
+                    <br>
+                    <p1>We all have the dogs, the</p1>
+                    <br>
+                    <p1>greatest dogs.</p1>
+          <img src="dog3.jpg" width="100%" height="450px" style="object-fit: cover">
+          </div>
+          <div class="column">
+                    <h3>Guaranteed To Work</h3>
+                    <br>
+                    <p1>Find the love of your dog's</p1>
+                    <br>
+                    <p1>life or your money back.</p1>
+          <img src="dog4.jpg" width="100%" height="450px" style="object-fit: cover">
+          </div>
+          </div>
+    </div>
 
-</div>
+    <div class="orangearea">
+    <h4>I no longer have to sniff other dogs for love.</h4>
+    <h4>I've found the hottest Corgi on TinDog</h4>
+    <h4>Woof.</h4>
+    <img class="img2" src="dog2.jpg" height="100px" width="100px" style= "object-fit: cover">
+    <p2>Rocky, Los Angeles</p2>
 
-<div class="orangearea">
-
-</div>
+    </div>
+    
+    
     
 </body>
 </html>
