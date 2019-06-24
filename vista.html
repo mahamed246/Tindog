@@ -56,7 +56,12 @@ a:hover {
 .whitearea {
     background-color: white;
     padding: 100px;
+}
 
+.whitearea1 {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
 }
 
 .orangearea {
@@ -66,8 +71,12 @@ a:hover {
 
 .bluearea {
     background-color: lightblue;
-    padding:100px;
-    
+    padding:100px;   
+}
+
+.bluearea1 {
+    background-color: lightblue;
+    padding:50px;   
 }
 
 .btn {
@@ -81,10 +90,38 @@ a:hover {
   font-weight: bold;
 }
 
+.btn1 {
+  background-color: transparent;
+  border: 1px solid;
+  padding: 12px 30px;
+  font-weight: lighter;
+  width: 300px;
+  border-radius: 10%;
+}
+
+.btn2 {
+  background-color: transparent;
+  border: 1px solid;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin:auto;
+  margin-left: 480px;
+  font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: grey;
+}
+
 .btn:hover {
     background-color: black;
 }
 
+.btn2:hover {
+    background-color: black;
+}
 .img1 {
     height: 300px;
     width: 200px;
@@ -144,6 +181,58 @@ p2 {
     margin: auto;
     margin-left: 55%;
 }
+
+.whitearea1 {
+    background-color: white;
+    padding: 100px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+p3 {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 38.8%;
+    margin-bottom: 50%;
+}
+
+.flex-container {
+  display: flex;
+
+}
+
+.flex-container > div {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 33.33%;
+  height: 300px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+p4 {
+    font-weight: bold;
+}
+
+p5 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 0.8%;
+    color: white;
+}
+
+
 
 </style>
 </head>
@@ -205,7 +294,75 @@ p2 {
     <p2>Rocky, Los Angeles</p2>
 
     </div>
+
+    <div class="whitearea1">
+    <h5>A Plan For Every Dog's Needs</h5>
+    <p3>Simple and affordable price plans for you and your dog.</p3>
+    <div class="flex-container">
+        <div>Chihuahua
+        <br>
+        <br>
+        <p4>FREE</p4>
+        <br>
+        <br>
+        <p5>5 matches Per Day</p5>
+        <br>
+        <p5>10 Messages Per Day</p5>
+        <br>
+        <p5>Unlimited App Usage</p5>
+        <br>
+        <button class="btn1">Sign Up</button>
+        </div>
+
+        <div>Labrador
+        <br>
+        <br>
+        <p4>$49 / mo</p4>
+        <br>
+        <br>
+        <p5>Unlimited Matches</p5>
+        <br>
+        <p5>Unlmited Messages</p5>
+        <br>
+        <p5>Unlimited App Usage</p5>
+        <br>
+        <button class="btn1">Sign Up</button>
+        </div>
+
+        <div>Husky
+        <br>
+        <br>
+        <p4>$99 / mo</p4>
+        <br>
+        <p5>Priority Listing</p5>
+        <br>
+        <p5>Unlimited Matches</p5>
+        <br>
+        <p5>Unlimited Messages</p5>
+        <br>
+        <p5>Unlimited App Usage</p5>
+        <br>
+        <button class="btn1">Sign Up</button>
+        </div>  
+        
+      </div>
+    </div>
     
+    <div class="bluearea1">
+    <h6>Find The True Love Of Your Dog's Life</h6>
+    <h6>Today.</h6>
+    <button class="btn2"><i class="fab fa-apple"></i> Download</button>
+    <button class="btn2"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+
+    <div class="whitearea1">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fas fa-envelope"></i>
+    <br>
+    <p6>Copyright 2019 TinDog</p6>
+    </div>
     
     
 </body>
